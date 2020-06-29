@@ -25,6 +25,8 @@ import countryCodeToFlag from "tiny-flag";
 countryCodeToFlag("US"); //=> '🇺🇸'
 ```
 
+Works great with `if-emoji` for progressive fallbacks: [Demo](https://codesandbox.io/s/country-flags-wz5g7?file=/src/App.js).
+
 ## Author
 
 👤 **Ben Aubin**
