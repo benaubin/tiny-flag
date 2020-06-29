@@ -1,6 +1,6 @@
 {
   "name": "tiny-flag",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Work with emoji flags in a tiny footprint",
   "main": "dist/index.js",
   "scripts": {
