@@ -10,7 +10,7 @@
 ## Install
 
 ```sh
-npm i --save-dev tiny-flag
+npm i --save tiny-flag
 ```
 
 ```sh
