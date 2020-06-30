@@ -1,10 +1,11 @@
 {
   "name": "tiny-flag",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Work with emoji flags in a tiny footprint",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "scripts": {
-    "build": "tsc -p ."
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,10 @@
   },
   "homepage": "https://github.com/benaubin/tiny-flag#readme",
   "devDependencies": {
+    "@rollup/plugin-typescript": "^5.0.1",
     "@types/node": "^14.0.14",
+    "rollup": "^2.18.1",
+    "tslib": "^2.0.0",
     "typescript": "^3.9.5"
   }
 }
